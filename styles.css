@@ -1,0 +1,193 @@
+* {
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;}
+
+header {
+      color: #F9FAF8;
+      background-color: #1F2937;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+}
+
+#navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+}
+
+#header-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      color: #F9FAF8;
+}
+
+#Header-Logo {
+      font-size: 24px;
+      color: #F9FAF8;
+}
+
+#header-links>p {
+      margin: 1rem;
+      font-size: 18px;
+      font-weight: 100;
+
+}
+
+#image {
+      width: 300px;
+      height: 200px;
+      background-color: gray;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      display: flex;
+}
+
+#banner {
+      display: flex;
+      flex-direction: row;
+      max-width: 80%;
+      margin: auto;
+      justify-content:  space-around;
+      flex-wrap: wrap;
+      padding: 4rem;
+}
+
+#banner-text-left {
+      max-width: 50%;
+}
+
+#banner-text-left>h1 {
+      font-size: 48px;
+      font-weight: extra-bold;
+}
+
+#banner {
+      color: #F9FAF8;
+}
+
+#signUp {
+      color: #F9FAF8;
+      background-color: #3882F6;
+      padding: 6px 20px;
+      border-radius: 5px;
+      border-style: none;
+}
+
+#second-section {
+      display:  flex;
+      flex-direction: column;
+      max-width: 80%;
+      margin: auto;
+}
+
+#image-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+
+#second-section>h2{
+      margin: 1rem auto;
+      color: #1F2937;
+      font-size: 36px;
+      font-weight: extra-bold;
+}
+
+.image-row-item {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+}
+
+.shape {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      border-color: #3882F6;
+      border-style: solid;
+      border-width: 3px;
+}
+
+.image-row-item>p {
+      text-align: center;
+      margin-top: 0.1rem;
+}
+
+#third-section {
+      background-color: #E5E7EB;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      align-content: flex-end;
+}
+
+#quote {
+      justify-content: center;
+      margin: auto;
+      max-width: 100%;
+      color: #1f2937;
+      font-size: 36px;
+      font-style: italic;
+      font-weight: lighter;
+}
+
+#quote-author {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-self: flex-end;
+}
+#quote-container {
+      max-width: 70%;
+      margin: 3rem auto;
+}
+
+#card {
+      display: flex;
+      flex-direction: row;
+      background-color: #3882F6;
+      color: #E5E7EB;
+      max-width: 50%;
+      margin: 3rem auto;
+      border-radius: 5px;
+      padding: 1rem 0rem 1rem 3rem;
+      align-content: center;
+}
+
+#card-text-text {
+      display: flex;
+      flex-direction: column;
+}
+
+#card-button-right {
+      margin: auto;
+}
+
+#card-button-right>button {
+      background-color: #3882F6;
+      border-color: #F9FAF8;
+      color: #F9FAF8;
+      height: 40%;
+      max-width: 80%;
+      min-width: 50%;
+      border-width: 1px;
+      border-radius: 5px;
+      border-style: solid;
+      padding: 6px 10px;
+      margin: 3rem;
+}
+
+footer {
+      background-color: #1F2937;
+      color: #F9FAF8;
+      text-align: center;
+      padding: 0.5rem;
+}
+
+
+
